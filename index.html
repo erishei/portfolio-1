@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+<nav id="navbar">
+    <a href=".">About</a>
+    <a href="#projects-list">Projects</a>
+    <a href="index.html">Home</a>
+</nav>
+
+<main>
+    <aside>
+        <h2>About</h2>
+        <section id="about">
+            <img id="about-img" src="assets/images/IMG_6930.jpg"
+                 alt="Picture of Erica, woman with long dark hair and dark features.">
+            <p>Info about me</p>
+        </section>
+    </aside>
+
+    <ul id="projects-list">
+        <h2>My Projects</h2>
+        <li id="loc-1">
+            <div class="project-item">
+                <h3>Exam Project 1</h3>
+                <h4>The Haute Spot</h4>
+                <p>Description</p>
+                <div class="technology-div">
+                    <h4>Technologies used:</h4>
+                    <ul class="technology-list">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-carousel">
+                <button class="prev-btn">&lt;</button>
+                <div class="carousel-images">
+                    <img src="assets/images/examprj.png" class="active">
+                    <img src="assets/images/examprj2.png">
+                    <img src="assets/images/examprj3.png">
+                    <img src="assets/images/examprj4.png">
+                </div>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </li>
+        <li id="loc-2">
+            <div class="project-item">
+                <h3>Agency 1</h3>
+                <h4>Quizzical</h4>
+                <p>Description</p>
+                <div class="technology-div">
+                    <h4>Technologies used:</h4>
+                    <ul class="technology-list">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-carousel">
+                <button class="prev-btn">&lt;</button>
+                <div class="carousel-images">
+                    <img src="assets/images/jsprj.png" class="active">
+                    <img src="assets/images/jsprj2.png">
+                    <img src="assets/images/jsprj3.png">
+                    <img src="assets/images/jsprj4.png">
+                </div>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </li>
+        <li id="loc-3">
+            <div class="project-item">
+                <h3>Semester Project 1</h3>
+                <h4>Science Museum</h4>
+                <p>Description</p>
+                <div class="technology-div">
+                    <h4>Technologies used:</h4>
+                    <ul class="technology-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-carousel">
+                <button class="prev-btn">&lt;</button>
+                <div class="carousel-images">
+                    <img src="assets/images/semesterprj.png" class="active">
+                    <img src="assets/images/semesterprj2.png">
+                    <img src="assets/images/semesterprj3.png">
+                </div>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </li>
+    </ul>
+</main>
+
+<footer>
+    &copy; Copyright Erica Sheidai 2024
+</footer>
+
+<div id="image-overlay" class="overlay">
+    <span class="close-btn">&times;</span>
+    <button class="overlay-prev-btn">&lt;</button>
+    <img class="overlay-content" id="overlay-img">
+    <button class="overlay-next-btn">&gt;</button>
+</div>
+
+</body>
+</html>
